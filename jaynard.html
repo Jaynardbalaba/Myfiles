@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ducument</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="file:///C:/Users/Admin/Downloads/355849298_983824443065157_3218016109372185158_n.jpg" alt="avatar" class="avatar">
+		<p></p>
+		<nav>
+			<a style="color:orangered;" class="tablink" onclick="openPage('History')">History</a>
+			<a style="color:orangered;" class="tablink" onclick="openPage('Aboutme')">Aboutme</a>
+			<a style="color:orangered;" class="tablink" onclick="openPage('Html')">HTML</a>
+			<a style="color:orangered;" class="tablink" onclick="openPage('Programming')">Programming</a>
+			<a style="color:orangered;" class="tablink" onclick="openPage('Contactme')">Contactme</a>
+		</nav>
+		<h2 id="demo"></h2>
+	</header>
+	<div id="Form" class="Form-box">
+		<form  id="myForm" class="Login-form">
+			<h1>Login</h1>
+			<div class="input-box">
+				<input type="text" name="uname" required>
+				<label>Username</label>
+				<ion-icon name="mail"></ion-icon>
+			</div>
+			<div class="input-box">
+				<input type="password" required>
+				<label>Password</label>
+				<ion-icon name="lock"></ion-icon>
+			</div>
+			<div class="checkbox">
+				<span>
+					<input type="cheakbox" id="login-checkbox">
+					<label for="login-checkbox">Remember me</label>
+				</span>
+				<h5>Forgot password ?</h5>
+			</div>
+			<input type="button" class="submit-btn" onclick="myFunction()" value="submit">
+			<h5 class="Register-btn">Dont have an account ? register</h5> 
+		</form>
+	</div>
+    <div id="History" class="tabcontent">
+    	  <h1 style="color:orangered;">(HISTORY)</h1>
+    	    <br><br>
+      			<h1 style="color: orangered;">SCHOOL HISTORY</h1>
+      			<h2 style="color: yellow;">1rs Quarter: Performing</h2>
+      			<h2 style="color: yellow;">2nd Quarter:</h2>
+      			<h2 style="color: yellow;">3rd Quarter:</h2>
+      			<h2 style="color: yellow;">4th Quarter:</h2>
+      			<h1 style="color: orangered;">CROSS FIRE HISTORY</h1>
+      			<h2 style="color: yellow;">EAGLE</h2>
+      			<h2 style="color: yellow;">6-VIP</h2>
+      			<h2 style="color: yellow;">RM:MYTHICAL</h2>
+    </div>
+    <div id="Aboutme" class="tabcontent">
+        <h1 style="color:orangered;">(ABOUT ME)</h1>
+        <br><br>
+        <img src="file:///C:/Users/Admin/Downloads/355849298_983824443065157_3218016109372185158_n.jpg" alt="avatar" class="avatar">
+        <p style="color: yellow;">NAME:JAYNARD ILAN BALABA</p>
+        <p style="color: yellow;">AGE:18</p>
+        <br><br>
+        <h2 style="color:orangered;">'MY HOBBIES'</h2>
+        <br>
+        <h2 style="color: yellow;">*Playing online games 8am to 11pm*</h2>
+        <h2 style="color: yellow;">*Dancing*</h2>
+        <h2 style="color: yellow;">*Eating*</h2>
+        <h2 style="color:orangered;">'MY JOB'</h2>
+        <br>
+        <h2 style="color: yellow;">*CUTTING HAIR*</h2>
+    </div>
+    <div id="Html" class="tabcontent">
+    	<h1 style="color:orangered;">(HTML)</h1>
+    	    <br><br>
+    	    <h1 style="color: yellow;">PERSONAL DATA</h1>
+        <h2><table>
+        	<tr>
+        		<th style="color: orangered;">NAME:</th>
+        		<th style="color: yellow;">Jaynard Ilan balaba:</th>
+        	</tr>
+        	<tr>
+        		<th style="color: orangered;">AGE:</th>
+        		<th style="color: yellow;">18</th>
+        	</tr>
+        	<tr>
+        		<th style="color: orangered;">Weight:</th>
+        		<th style="color: yellow;">63</th>
+        	</tr>
+        	<tr>
+        		<th style="color: orangered;">Height:</th>
+        		<th style="color: yellow;">5.6</th>
+        	</tr>
+        	<tr>
+        		<th style="color: orangered;">DOB:</th>
+        		<th style="color: yellow;">NOV,24,2005</th>
+        	</tr>
+        	<tr>
+        		<th style="color: orangered;">POB:</th>
+        		<th style="color: yellow;">SIBAGAT AGUSAN DEL SUR</th>
+        	</tr>
+            <tr>
+        		<th style="color: orangered;">CNS:</th>
+        		<th style="color: yellow;">Filipino</th>
+        	</tr>
+        	<tr>
+        		<th style="color: orangered;">RLN:</th>
+        		<th style="color: yellow;">Catholic</th>
+        	</tr>       	
+        </table></h2>
+          <h1 style="color: yellow;">EDUCATIONAL</h1>
+          <h2><table>
+          	<tr>
+          		<th style="color: orangered">PRIMARRY</th>
+          		<th style="color: yellow;">Dulag elementary school 2017-2018</th>
+          	</tr>
+          </table></h2>
+    </div>
+    <div id="Programming" class="tabcontent">
+    	<h1 style="color:orangered;">(PROGRAMMING)</h1>
+    	    <br><br>
+    	<h2><table>
+        	<tr>
+        		<th><a style="color: orangered;" href="https://www.onlinegdb.com/edit/CqfOjF09O">Activity1</a></th>
+        	 </tr> 
+        	<tr>
+                <th><a style="color: orangered;" href="https://www.onlinegdb.com/edit/ihYwjwuba">Activity2</a></th>
+             </tr>
+            <tr>
+                <th><a style="color: orangered;" href="https://www.onlinegdb.com/edit/L6rLR7Tms">Activity3</a></th>
+             </tr>
+            <tr>
+                <th><a style="color: orangered;" href="https://www.onlinegdb.com/edit/wM5UKPpgZ">Activity4</a></th>
+              </tr>
+             <tr>
+             	<th><a style="color: orangered;" href="https://www.onlinegdb.com/edit/LFAdpq--7">Activity5</a></th>
+             </tr>
+             <tr>
+             	<th><a style="color: orangered;" href="https://www.onlinegdb.com/edit/uty2ZGUXE">Activity6</a></th>
+             </tr>
+             <tr>
+             	<th><a style="color: orangered;" href="https://www.onlinegdb.com/edit/Sb0eUPYP2">Activity7</a>
+            </th>
+             </tr>       
+    </table></h2>
+    </div>
+    <div id="Contactme" class="tabcontent">
+    	<h1 style="color:orangered;">(CONTACT ME)</h1>
+    	    <br><br>
+        <h2><table>
+        	<tr>
+        		<th style="color: orangered;">GMAIL:</th>
+        		<th><a href="" style="color: yellow;">jaynardbalaba@gmail.com</th>
+        	</tr>
+        	<tr>
+        		<th style="color: orangered;">FB NAME:</th>
+        		<th><a style="color: yellow;" href="https://www.facebook.com/jenardbalaba44">Jaynardbalaba</th>
+        	</tr>
+        </table></h2>
+    </div>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
